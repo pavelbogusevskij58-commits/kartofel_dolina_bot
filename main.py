@@ -9,7 +9,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "👋 Добро пожаловать в Долину Картофеля!)
+    bot.reply_to(message, "👋 Добро пожаловать в Долину Картофеля!")
 
 Напиши /menu чтобы сделать заказ.")
 
